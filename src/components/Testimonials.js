@@ -17,7 +17,7 @@ const Testimonials = () => {
           </p>
         </div>
         <div className="flex flex-col md:flex-row">
-          <div className="w-full md:w-1/2 mb-8 bg-white p-4 md:mx-2 md:mx-12 shadow-lg">
+          <div className="w-full md:w-1/2 mb-8 bg-white p-4  md:mx-12 shadow-lg">
             <div className="p-4">
               <div>
                 <p className="font-bold text-center mb-6 md:mb-12 text-lg">
@@ -39,7 +39,7 @@ const Testimonials = () => {
               </div>
             </div>
           </div>
-          <div className="w-full md:w-1/2 mb-8 bg-white p-4 md:mx-2 md:mx-12 shadow-lg">
+          <div className="w-full md:w-1/2 mb-8 bg-white p-4  md:mx-12 shadow-lg">
             <div className="p-4">
               <div>
                 <p className="font-bold text-center mb-6 md:mb-12 text-lg">
