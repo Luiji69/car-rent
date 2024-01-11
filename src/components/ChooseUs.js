@@ -31,8 +31,8 @@ const ChooseUs = () => {
             the bank. Our deals are designed to give you the ultimate renting
             experience, so don't miss out on your chance to save big.
           </p>
-          <button className="bg-orange md:flex items-center text-white font-bold rounded py-3 px-8 my-4">
-            Find Detail <RightOutlined />
+          <button className="bg-orange text-white font-bold rounded py-3 px-8 my-4 lg:float-left sm:mx-auto">
+            Find Detail <RightOutlined className='align-text-bottom'/>
           </button>
         </div>
         <div className="w-full md:w-1/2 block p-4 md:p-12">
@@ -41,7 +41,9 @@ const ChooseUs = () => {
               <img src={icon1} alt="" className="w-20 h-auto" />
             </div>
             <div className="w-full md:w-2/3">
-              <h2 className="text-lg font-bold md:text-left  my-2">Cross Country Drive</h2>
+              <h2 className="text-lg font-bold md:text-left  my-2">
+                Cross Country Drive
+              </h2>
               <p className="text-gray-dark md:text-left ">
                 Take your driving experience to the next level with our
                 top-notch vehicles for your cross-country adventures.
@@ -53,10 +55,12 @@ const ChooseUs = () => {
               <img src={icon2} alt="" className="w-20 h-auto" />
             </div>
             <div className="w-full md:w-2/3">
-              <h2 className="text-lg font-bold md:text-left  my-2">All Inclusive Pricing</h2>
+              <h2 className="text-lg font-bold md:text-left  my-2">
+                All Inclusive Pricing
+              </h2>
               <p className="text-gray-dark md:text-left ">
-                Get everything you need in one convenient, transparent price with
-                our all-inclusive pricing policy.
+                Get everything you need in one convenient, transparent price
+                with our all-inclusive pricing policy.
               </p>
             </div>
           </div>
@@ -65,10 +69,12 @@ const ChooseUs = () => {
               <img src={icon3} alt="" className="w-20 h-auto" />
             </div>
             <div className="w-full md:w-2/3">
-              <h2 className="text-lg font-bold md:text-left  my-2">No Hidden Charges</h2>
+              <h2 className="text-lg font-bold md:text-left  my-2">
+                No Hidden Charges
+              </h2>
               <p className="text-gray-dark md:text-left ">
-                Enjoy peace of mind with our no hidden charges policy. We believe
-                in transparent and honest pricing.
+                Enjoy peace of mind with our no hidden charges policy. We
+                believe in transparent and honest pricing.
               </p>
             </div>
           </div>
