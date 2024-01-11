@@ -60,7 +60,7 @@ const OurTeam = ({ team }) => {
       <div className="mt-28 mx-14">
         <div className="flex flex-wrap justify-around">
           {Team.map((team) => (
-            <a href="/" className="group relative sm:w-80 md:w-1/3 lg:w-1/4 xl:w-1/4 mb-8 sm:mx-2 md:mx-4 lg:mx-4 xl:mx-4 rounded shadow-lg block bg-gray-dark">
+            <a href="#" className="group relative sm:w-80 md:w-1/3 lg:w-1/4 xl:w-1/4 mb-8 sm:mx-2 md:mx-4 lg:mx-4 xl:mx-4 rounded shadow-lg block bg-gray-dark">
               <img
                 alt="Person"
                 src={team.img}
