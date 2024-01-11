@@ -31,7 +31,7 @@ const ChooseUs = () => {
             the bank. Our deals are designed to give you the ultimate renting
             experience, so don't miss out on your chance to save big.
           </p>
-          <button className="bg-orange text-white font-bold rounded py-3 px-8 sm:px-8 my-4 lg:float-left sm:mx-auto">
+          <button className="bg-orange text-white font-bold rounded py-3 px-8 sm:px-8 my-4 md:float-left">
             Find Detail <RightOutlined className="align-text-bottom" />
           </button>
         </div>
