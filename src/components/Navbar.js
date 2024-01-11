@@ -1,13 +1,6 @@
 import React, { useState } from 'react';
-import { CloseOutlined, MenuOutlined } from '@ant-design/icons';
+import { CloseOutlined, MenuOutlined, RightOutlined } from '@ant-design/icons';
 import logo from '../assets/logo/logo.png';
-import bookbg from '../assets/book-car/book-bg.png';
-
-
-const navStyle = {
-  backgroundImage: `url(${bookbg})`,
-  alignItems: 'center',
-};
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -62,7 +55,7 @@ const Navbar = () => {
       </header>
       {isMenuOpen && (
         <div>
-          <nav className="fixed top-0 right-0 left-0 z-50 bottom-0 lg:bottom-auto bg-slate-100  " style={navStyle}>
+          <nav className="fixed top-0 right-0 left-0 z-50 bottom-0 lg:bottom-auto bg-white">
             <div
               className="hidden max-lg:block fixed right-0  px-8 py-4 cursor-pointer"
               onClick={() => {
@@ -71,21 +64,20 @@ const Navbar = () => {
             >
               <CloseOutlined className="text-4xl" />
             </div>
-            <ul className=" lg:hidden flex flex-col  justify-center mx-12  gap-2  h-full ">
+            <ul className=" lg:hidden flex flex-col mt-20 mx-12  gap-6  h-full ">
               {navLinks.map((item) => (
-                <li key={item.label} className='bg-white p-4 border rounded '>
-                  <a
-                    href={item.href}
-                    className=" leading-normal  text-lg text-slate-gray"
-                  >
-                    {item.label}
-                  </a>
-                </li>
+                <a
+                  href={item.href}
+                  className="flex items-center justify-between leading-normal text-lg w-full"
+                >
+                  <span>{item.label}</span>
+                  <RightOutlined />
+                </a>
               ))}
               <button className=" bg-orange p-4 text-white rounded font-bold">
                 Sign In
               </button>
-              <button className="bg-orange p-4  text-white rounded font-bold">
+              <button className="bg-black p-4  text-white rounded font-bold">
                 Register
               </button>
             </ul>
