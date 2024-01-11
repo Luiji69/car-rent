@@ -5,7 +5,7 @@ import { PhoneOutlined, MailOutlined } from '@ant-design/icons';
 function Footer() {
   return (
     <div className="lg:flex md:block p-4 md:p-24">
-      <div className="w-full md:w-1/2 lg:w-1/4 m-4 flex flex-col">
+      <div className="w-full md:w-1/2 lg:w-1/4 md:m-4 flex flex-col">
         {/* Section 1 content */}
         <img className="w-32" src={logo} alt="" />
         <p className="text-gray-dark text-left my-4">
@@ -24,7 +24,7 @@ function Footer() {
           Design by islem Baaziz
         </a>
       </div>
-      <div className="w-full md:w-1/2 lg:w-1/4 m-4 flex flex-col">
+      <div className="w-full md:w-1/2 lg:w-1/4 md:m-4 flex flex-col">
         {/* Section 2 content */}
         <h3 className="text-left font-bold mb-4">COMPANY</h3>
         <a className="hover:text-orange mb-2 text-left" href="/">
@@ -43,14 +43,14 @@ function Footer() {
           How we work
         </a>
       </div>
-      <div className="w-full md:w-1/2 lg:w-1/4 m-4 flex flex-col">
+      <div className="w-full md:w-1/2 lg:w-1/4 md:m-4 flex flex-col">
         {/* Section 3 content */}
         <h3 className="text-left font-bold mb-4">WORKING HOURS</h3>
         <p className="text-gray-dark text-left mb-2">Mon - Fri: 9:00AM - 9:00PM</p>
         <p className="text-gray-dark text-left mb-2">Sat: 9:00AM - 19:00PM</p>
         <p className="text-gray-dark text-left mb-2">Sun: Closed</p>
       </div>
-      <div className="w-full md:w-1/2 lg:w-1/4 m-4 flex flex-col">
+      <div className="w-full md:w-1/2 lg:w-1/4 md:m-4 flex flex-col">
         {/* Section 4 content */}
         <h3 className="text-left font-bold mb-4">SUBSCRIPTION</h3>
         <p className="text-gray-dark text-left mb-2">

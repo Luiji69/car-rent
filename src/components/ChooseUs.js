@@ -14,7 +14,7 @@ const div2Style = {
 
 const ChooseUs = () => {
   return (
-    <div className="mx-4 md:mx-14 mt-12 md:mt-20" style={div2Style}>
+    <div className="md:mx-14 mt-12 md:mt-20" style={div2Style}>
       <div className="max-w-full h-auto flex justify-center">
         <img src={threecars} alt="" className="w-full" />
       </div>
@@ -31,8 +31,8 @@ const ChooseUs = () => {
             the bank. Our deals are designed to give you the ultimate renting
             experience, so don't miss out on your chance to save big.
           </p>
-          <button className="bg-orange text-white font-bold rounded py-3 px-8 my-4 lg:float-left sm:mx-auto">
-            Find Detail <RightOutlined className='align-text-bottom'/>
+          <button className="bg-orange text-white font-bold rounded py-3 px-8 sm:px-8 my-4 lg:float-left sm:mx-auto">
+            Find Detail <RightOutlined className="align-text-bottom" />
           </button>
         </div>
         <div className="w-full md:w-1/2 block p-4 md:p-12">
