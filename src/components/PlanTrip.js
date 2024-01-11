@@ -16,7 +16,7 @@ const PlanTrip = () => {
           </h1>
         </div>
         <div className="flex flex-col md:flex-row justify-center md:justify-between">
-          <div className="w-full md:w-1/3 flex flex-col items-center m-4 p-4">
+          <div className="w-full md:w-1/3 flex flex-col items-center  p-4">
             <img src={img1} alt="" />
             <h3 className="text-black text-lg font-bold">Select Car</h3>
             <p className="text-gray-dark mt-4 text-center max-w-72">
@@ -24,7 +24,7 @@ const PlanTrip = () => {
               Choose the perfect car for your trip.
             </p>
           </div>
-          <div className="w-full md:w-1/3 flex flex-col items-center m-4 p-4">
+          <div className="w-full md:w-1/3 flex flex-col items-center  p-4">
             <img src={img2} alt="" />
             <h3 className="text-black text-lg font-bold">Contact Operator</h3>
             <p className="text-gray-dark mt-4 text-center max-w-72">
@@ -32,7 +32,7 @@ const PlanTrip = () => {
               with any questions or concerns you may have.
             </p>
           </div>
-          <div className="w-full md:w-1/3 flex flex-col items-center m-4 p-4">
+          <div className="w-full md:w-1/3 flex flex-col items-center  p-4">
             <img src={img3} alt="" />
             <h3 className="text-black text-lg font-bold">Let's Drive</h3>
             <p className="text-gray-dark mt-4 text-center max-w-72">
